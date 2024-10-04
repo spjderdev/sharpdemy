@@ -6,7 +6,7 @@ using server.Repositories.interfaces;
 namespace server.Repositories;
 
 
-public class UserRepository : IUserRepository {
+public class UserRepository : IAuthRepository {
     private readonly AppDbContext _context;
 
     public UserRepository(AppDbContext context) {

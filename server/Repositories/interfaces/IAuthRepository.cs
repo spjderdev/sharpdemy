@@ -3,7 +3,7 @@ using server.Models;
 namespace server.Repositories.interfaces;
 
 
-public interface IUserRepository {
+public interface IAuthRepository {
     Task<User> CreateUser(User user);
 
     Task<User?> GetUserById(int id);

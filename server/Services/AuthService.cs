@@ -7,11 +7,11 @@ namespace server.Services;
 
 
 
-public class UserService : IUserService {
-    private readonly IUserRepository _userRepository;
+public class UserService : IAuthService {
+    private readonly IAuthRepository _userRepository;
     private readonly TokenService _tokenService;
 
-    public UserService(IUserRepository userRepository, TokenService tokenService) {
+    public UserService(IAuthRepository userRepository, TokenService tokenService) {
         _userRepository = userRepository;
         _tokenService = tokenService;
     }

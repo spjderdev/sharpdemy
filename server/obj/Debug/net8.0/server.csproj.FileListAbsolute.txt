@@ -135,3 +135,4 @@ D:\Programming\Sharpdemy\server\obj\Debug\net8.0\server.pdb
 D:\Programming\Sharpdemy\server\obj\Debug\net8.0\server.genruntimeconfig.cache
 D:\Programming\Sharpdemy\server\obj\Debug\net8.0\ref\server.dll
 D:\programming\sharpdemy\server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\programming\sharpdemy\server\obj\Debug\net8.0\server.sourcelink.json
